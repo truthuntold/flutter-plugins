@@ -11,7 +11,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  audio_streamer: ^1.2.0
+  audio_streamer:
+    git:
+      url: git@github.com:truthuntold/flutter-plugins.git
+      ref: master
+      path: packages/audio_streamer/
+
 
 dev_dependencies:
   flutter_test:

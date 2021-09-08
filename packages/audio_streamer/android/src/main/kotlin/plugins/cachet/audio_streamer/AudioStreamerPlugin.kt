@@ -23,8 +23,8 @@ public class AudioStreamerPlugin : FlutterPlugin, RequestPermissionsResultListen
 
     /// Constants
     private val eventChannelName = "audio_streamer.eventChannel"
-    private val sampleRate = 44100
-    private var bufferSize = 6400 * 2; /// Magical number!
+    private val sampleRate = 8000
+    private var bufferSize = 500; /// Magical number!
     private val maxAmplitude = 32767 // same as 2^15
     private val logTag = "AudioStreamerPlugin"
 
