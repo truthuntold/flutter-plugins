@@ -13,7 +13,7 @@ dependencies:
   audio_streamer:
     git:
       url: git@github.com:truthuntold/flutter-plugins.git
-      ref: master
+      ref: 5870ccf4e28cb525dfbba014535bdd33f4184c13
       path: packages/audio_streamer/
 dev_dependencies:
   flutter_test:
